@@ -177,8 +177,6 @@ class Game(object):
     Assign each word in the list it's best score
     """
     
-    gameMoves += 1
-    
     playableWords = []
     logging.info("Calculating selection")
     wordSelection = random.sample(self.words, 5000)
